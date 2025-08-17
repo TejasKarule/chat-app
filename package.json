@@ -1,8 +1,11 @@
 {
-  "name": "chat-starter",
+  "name": "real-time-chat-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A real-time chat application built with React.js, Firebase, and Tailwind CSS.",
+  "author": "Tejas Karule",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +17,7 @@
     "firebase": "^11.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.2",
     "react-toastify": "^11.0.5",
     "zustand": "^5.0.3"
   },
