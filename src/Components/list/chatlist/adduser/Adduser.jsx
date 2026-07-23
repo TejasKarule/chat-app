@@ -1,4 +1,4 @@
-import "./addUser.css";
+import "./adduser.css";
 import { db } from "../../../../lib/firebase";
 import {
   collection,
@@ -71,7 +71,7 @@ const AddUser = () => {
               },
             ],
           },
-          { merge: true }
+          { merge: true },
         );
 
         await setDoc(
@@ -85,7 +85,7 @@ const AddUser = () => {
               },
             ],
           },
-          { merge: true }
+          { merge: true },
         );
       }
     } catch (err) {
