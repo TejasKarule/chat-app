@@ -1,6 +1,6 @@
-import Chat from "./Components/chat/chat";
+import Chat from "./Components/chat/Chat";
 import List from "./Components/list/list";
-import Details from "./Components/details/details";
+import Details from "./Components/details/Details";
 import Login from "./Components/login/Login";
 import Notification from "./Components/notification/Notification";
 import { useEffect } from "react";
